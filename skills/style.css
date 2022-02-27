@@ -1,0 +1,250 @@
+body{
+	  background-image: url(img/endless-constellation.svg);
+}
+h2{
+	  font-family: Expletus sans;
+}
+p{
+	font-family: poppins;
+	font-size: 1.5em;
+}
+.tracking-in-contract-bck{
+	-webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ @-webkit-keyframes tracking-in-contract-bck {
+	0% {
+	  letter-spacing: 1em;
+	  -webkit-transform: translateZ(400px);
+			  transform: translateZ(400px);
+	  opacity: 0;
+	}
+	40% {
+	  opacity: 0.6;
+	}
+	100% {
+	  -webkit-transform: translateZ(0);
+			  transform: translateZ(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes tracking-in-contract-bck {
+	0% {
+	  letter-spacing: 1em;
+	  -webkit-transform: translateZ(400px);
+			  transform: translateZ(400px);
+	  opacity: 0;
+	}
+	40% {
+	  opacity: 0.6;
+	}
+	100% {
+	  -webkit-transform: translateZ(0);
+			  transform: translateZ(0);
+	  opacity: 1;
+	}
+  }
+  .tracking-in-contract{
+	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ @-webkit-keyframes tracking-in-contract {
+	0% {
+	  letter-spacing: 1em;
+	  opacity: 0;
+	}
+	40% {
+	  opacity: 0.6;
+	}
+	100% {
+	  letter-spacing: normal;
+	  opacity: 1;
+	}
+  }
+  @keyframes tracking-in-contract {
+	0% {
+	  letter-spacing: 1em;
+	  opacity: 0;
+	}
+	40% {
+	  opacity: 0.6;
+	}
+	100% {
+	  letter-spacing: normal;
+	  opacity: 1;
+	}
+  }
+.text{
+	color: white;
+	margin: 1.3% 0px .6% 1%;
+	font-size: 1.5em;
+}
+.progressbar{
+	margin: auto;
+	font-family: poppins;
+}
+.chart {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+    .chart span {
+        /* You can modify the value below to change the distance between the percentage number and the bar */
+        margin-left: 5px;
+        color: #fff;
+        font-weight: bolder;
+    }
+
+.bar1{
+    
+    animation: load1 3s normal forwards;
+  
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: #fff;
+    height: 15px;
+    width: 0;
+} 
+
+@keyframes load1{
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 97%;
+    }
+}
+.bar2{
+    
+    animation: load2 3s normal forwards;
+  
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: #fff;
+    height: 15px;
+    width: 0;
+} 
+
+@keyframes load2{
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 90%;
+    }
+}
+.bar3{
+    
+    animation: load3 3s normal forwards;
+  
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: #fff;
+    height: 15px;
+    width: 0;
+} 
+
+@keyframes load3{
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 95%;
+    }
+}
+.bar4{
+    
+    animation: load4 3s normal forwards;
+  
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: #fff;
+    height: 15px;
+    width: 0;
+} 
+
+@keyframes load4{
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 90%;
+    }
+}
+.bar5{
+    
+    animation: load5 3s normal forwards;
+  
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: #fff;
+    height: 15px;
+    width: 0;
+} 
+
+@keyframes load5{
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 88%;
+    }
+}
+.bar6{
+    
+    animation: load6 3s normal forwards;
+  
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: #fff;
+    height: 15px;
+    width: 0;
+} 
+
+@keyframes load6{
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 97%;
+    }
+}
+.bar7{
+    
+    animation: load7 3s normal forwards;
+  
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: #fff;
+    height: 15px;
+    width: 0;
+} 
+
+@keyframes load7{
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 90%;
+    }
+}

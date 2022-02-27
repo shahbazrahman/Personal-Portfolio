@@ -1,0 +1,494 @@
+body
+{
+    margin: 0px
+}
+.nav
+{
+    height: 43px;
+    width: 1349px;
+    background-color: white;
+}
+.logo
+{
+
+    float: left;
+}
+.logo img
+{
+    height: px;
+    width: 50px;
+    padding-left: 75px;
+    padding-top: 5px;
+}
+.list1
+{
+    float: left;
+    font-family: Calibri;
+    font-weight:bold;
+    font-size: 15px;
+    line-height: 18px;
+    
+   
+}
+.list1 ul
+{
+    list-style-type: none;
+    
+}
+.list1 ul li
+{
+    float: left;
+    padding-left: 15;
+}
+.list1 ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.list1 ul li a:hover
+{
+    color: orange;
+}
+.button1 
+{
+    background-color: #bb8642;
+    width: 100px;
+    height: 30px;
+    font-family: Calibri;
+    font-size: 15px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 126px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px grey;
+}
+.button1 div
+{
+   padding-top: 6; 
+}
+.button1 a
+{
+    text-decoration: none;
+    color: white;
+}
+.button1 a:hover
+{
+    color: midnightblue;
+}
+.sign
+{
+    padding-top: 16px;
+    float: left;
+    margin-left: 20;
+    font-family: Calibri bold;
+    color: #4a4a4a;
+}
+.sign a
+{
+    text-decoration: none;
+    color: #4a4a4a;
+    float: left;
+}
+.sign a:hover
+{
+    color: orange;
+}
+.lang
+{
+    padding-top: 15px;
+    float: left;
+    margin-left: 20px;
+}
+.banner
+{
+    background-image: url(img/cq5dam.web.1280.1280.jpeg);
+    height: 448px;
+    margin-top: 10px;
+}
+.ttl
+{
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 140px; 
+}
+.option
+{
+    height: 70px;
+    width: 1140px;
+    background-color: black;
+    opacity: 0.6;
+    margin-left: 115px;
+    margin-top: 198px;
+    
+}
+.w2
+{
+    color: white;
+    padding-top: 10;
+    margin-left: 20;
+    font-family: Calibri;
+    font-size: 20;
+    float: left;
+     width: 25%
+}
+.date
+{
+    float: left;
+    color: white;
+    text-align: center;
+    padding-top: 10;
+    font-family: Calibri;
+    margin-left: 50px
+}
+.date input
+{
+        color: white;
+}
+.avail
+{
+    color: white;
+    padding-top: 10;
+    margin-left: 20;
+    font-family: Calibri;
+    font-size: 20;
+    float: left;
+     width: 25%;
+    margin-left: 50px;
+}
+.button2
+{
+    background-color: #bb8642;
+    width: 110px;
+    height: 45px;
+    font-family: Calibri;
+    font-size: 15px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 126px;
+    text-align: center;
+    border-radius: 10px;
+}
+.button2 div
+{
+   padding-top: 11px;
+}
+.button2 div a
+{
+    text-decoration: none;
+    color: white;
+}
+.button2 div a:hover
+{
+    color: black;
+}
+.info
+{
+    width:1233;
+    height:780px;
+    background-color: #f5f5f5;
+    padding-left: 115px;
+    padding-top: 70px;
+}
+.navig
+{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+}
+.navig a
+{
+    color: #d29751;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav2
+{
+    height: 28px;
+    width: 123px;
+    background-color: white;
+    margin-top: 20px;
+    float: left;
+    margin-left: 2px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 13px;
+    padding-top: 10px;
+    font-weight: lighter
+}
+.nav2 a
+{
+    text-decoration: none;
+    color: black;
+}
+.nav2 a:hover
+{
+    color: orangered
+}
+.bbm
+{
+    margin-top: 175px;
+    font-family: Calibri;
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 28px;
+    color: #1b1b1b;
+    float: left;
+}
+.clock img
+{
+    margin-top: 183px;
+    margin-left: 45px;
+    float: left;
+}
+.valid
+{
+    margin-top: 241px;
+    margin-left: 350;
+    font-family: Calibri;
+    
+}
+.line
+{
+    border: 1px solid #d29751;
+    width: 100px;
+    margin-top: 20px
+}
+.indg
+{
+    font-family: Calibri;
+    font-size: 14px;
+    margin-top: 85px;
+    color: #494949;
+}
+.inc
+{
+    font-size: 25px;
+    font-family: Calibri;
+    margin-top: 85px;
+    color: #323232;
+}
+.line1
+{
+    border: 1px solid #979797;
+    height: 35px;
+    width: -10px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 170px;
+}
+.tc
+{
+    color: #d29751;
+    font-family: Calibri;
+    text-decoration: underline;
+    font-size: 18px;
+    float: left
+    
+}
+.tc select
+{
+    color: #d29751;
+    background-color: #f5f5f5;
+    border-color: #f5f5f5
+     
+}
+.Button4
+{
+    background-color: #bb8642;
+    width: 150px;
+    height: 30px;
+    font-family: Calibri;
+    font-size: 15px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 320px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px grey;
+}
+.Button4 div
+{
+    padding-top: 5px
+    
+}
+.button4 a
+{
+    text-decoration: none;
+    color: white;
+}
+.button4 a:hover
+{
+    color: midnightblue;
+}
+.info2
+{
+    height: 420px;
+    background-color: #efeeee;
+    font-family: Calibri;
+    margin-top
+}
+.plus
+{
+    float: left;
+    padding-top: 35px;
+    padding-left: 4px;
+}
+.line3
+{
+    border: 1px solid darkgrey;
+    width: 1140px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 114px;
+}
+.nav5
+{
+    font-family: calibri;
+    margin-left: 74
+}
+.list3
+{
+    
+    font-size: 15px;
+    float: left;
+    margin-top: 0px
+}
+.list3 ul 
+{
+  
+    list-style: none;
+    font-family: Calibri;
+    font-size: 13px;
+    color: #1b1b1b
+}
+.list3 ul li
+{
+     padding-top: 18px;
+}
+.lp
+{
+    font-family: Calibri;
+    font-size: 13px;
+    color: #1b1b1b;  
+}
+.list4
+{
+    font-size: 15px;
+    float: left;
+}
+.list4 ul 
+{
+  
+    list-style: none;
+    font-family: Calibri;
+    font-size: 13px;
+    color: #1b1b1b
+}
+.list4 ul li
+{
+     padding-top: 20px;
+}
+.list5
+{
+    font-size: 15px;
+    float: left;
+    margin-left: 165
+}
+.list5 ul 
+{
+  
+    list-style: none;
+    font-family: Calibri;
+    font-size: 13px;
+    color: #1b1b1b
+}
+.list5 ul li
+{
+     padding-top: 20px;
+}
+.list6
+{
+    float: left;
+    margin-top: 32;
+    font-size: 13px;
+    color: #1b1b1b;
+    font-family: Calibri;
+    margin-left: 190px
+}
+.Button5
+{
+    background-color: #bb8642;
+    width: 150px;
+    height: 30px;
+    font-family: Calibri;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px grey;
+    margin-top: 20px
+}
+.Button5 div
+{
+    padding-top: 5px
+    
+}
+.button5 a
+{
+    text-decoration: none;
+    color: white;
+}
+.button5 a:hover
+{
+    color: midnightblue;
+}
+.cwu
+{
+    
+    margin-top: 30
+}
+.soc img
+{
+    height: 36px;
+    width: 36px;
+    padding: 5;
+}
+.line4
+{
+    border: 1px solid darkgrey;
+    width: 1140px;
+    float: left;
+    margin-left: 40px
+}
+.end
+{
+    
+}
+.ihcl
+{
+    width: 80px;
+    height: 30px;
+    margin-left: 115px;
+    
+}
+.cpr
+{
+    font-family: calibri;
+    font-size: 13px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 115px
+}
+.sign1
+{
+    float: right;
+    margin-top: 20;
+    margin-right: 100;
+    font-family: Calibri;
+    
+}
